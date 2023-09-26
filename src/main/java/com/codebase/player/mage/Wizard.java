@@ -10,4 +10,9 @@ public class Wizard extends Mage{
     public String cast(){
         return "The wizard has casted a spell";
     }
+
+    @Override
+    public String defend() {
+        return "The wizard blocked the attack!";
+    }
 }
