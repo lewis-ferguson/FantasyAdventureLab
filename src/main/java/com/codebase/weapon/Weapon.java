@@ -1,4 +1,4 @@
-package com.codebase;
+package com.codebase.weapon;
 
 public abstract class Weapon implements IWeapon {
     private int damage;

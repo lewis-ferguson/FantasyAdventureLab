@@ -1,4 +1,6 @@
-package com.codebase;
+package com.codebase.enemy;
+
+import com.codebase.weapon.Weapon;
 
 public abstract class Enemy {
     private int healthPoints;

@@ -1,6 +1,9 @@
-package com.codebase;
+package com.codebase.player.fighter;
 
-public abstract class Fighter extends Player{
+import com.codebase.player.Player;
+import com.codebase.weapon.Weapon;
+
+public abstract class Fighter extends Player {
 
     private Weapon weapon;
     public Fighter(String name, int healthPoints, Weapon weapon) {

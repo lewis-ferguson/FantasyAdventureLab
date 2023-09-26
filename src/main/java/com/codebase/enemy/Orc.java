@@ -1,4 +1,6 @@
-package com.codebase;
+package com.codebase.enemy;
+
+import com.codebase.enemy.Enemy;
 
 public class Orc extends Enemy {
 
