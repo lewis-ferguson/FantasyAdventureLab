@@ -1,3 +1,4 @@
+import com.codebase.enemy.Orc;
 import com.codebase.player.fighter.Knight;
 import com.codebase.weapon.Axe;
 import com.codebase.weapon.Sword;
@@ -11,16 +12,19 @@ public class KnightTest {
     private Sword sword;
     private Axe axe;
 
+    private Orc orc;
+
     @Before
     public void before() {
         sword = new Sword( WeaponType.SWORD);
         axe = new Axe( WeaponType.AXE);
         knight = new Knight("Sir Lancelot", 30, sword);
+        orc = new Orc(30);
     }
 
     @Test
     public void canAttack() {
-        assertEquals("Slash", knight.getWeapon().attack());
+        assertEquals("You slashed the enemy for 10 damage. Enemy has 20 health remaining.", knight.getWeapon().attack(orc));
     }
 
     @Test

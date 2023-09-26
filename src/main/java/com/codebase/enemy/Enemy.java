@@ -13,5 +13,7 @@ public abstract class Enemy {
         this.healthPoints -= weapon.getDamage();
     }
 
-
+    public int getHealthPoints() {
+        return healthPoints;
+    }
 }
