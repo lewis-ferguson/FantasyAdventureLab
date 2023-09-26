@@ -1,9 +1,9 @@
 package com.codebase.player.fighter;
 
-import com.codebase.player.Player;
+import com.codebase.weapon.Weapon;
 
-public class Knight extends Player {
-    public Knight(String name, int healthPoints) {
-        super(name, healthPoints);
+public class Knight extends Fighter{
+    public Knight(String name, int healthPoints, Weapon weapon) {
+        super(name, healthPoints, weapon);
     }
 }
