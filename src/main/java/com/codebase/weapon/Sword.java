@@ -4,8 +4,8 @@ import com.codebase.weapon.Weapon;
 import com.codebase.weapon.WeaponType;
 
 public class Sword extends Weapon {
-    public Sword(int damage, WeaponType weaponType) {
-        super(damage, weaponType);
+    public Sword( WeaponType weaponType) {
+        super( weaponType);
     }
 
     @Override

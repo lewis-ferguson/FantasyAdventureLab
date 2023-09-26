@@ -10,12 +10,12 @@ public class SwordTest {
 
     @Before
     public void before() {
-        sword = new Sword(15, WeaponType.SWORD);
+        sword = new Sword( WeaponType.SWORD);
     }
 
     @Test
     public void hasDamage() {
-        assertEquals(15, sword.getDamage());
+        assertEquals(10, sword.getDamage());
     }
 
     @Test

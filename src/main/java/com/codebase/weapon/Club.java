@@ -1,8 +1,8 @@
 package com.codebase.weapon;
 
 public class Club extends Weapon {
-    public Club(int damage, WeaponType weaponType) {
-        super(damage, weaponType);
+    public Club( WeaponType weaponType) {
+        super( weaponType);
     }
 
     @Override
