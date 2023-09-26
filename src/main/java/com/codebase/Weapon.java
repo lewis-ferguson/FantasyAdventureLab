@@ -13,7 +13,7 @@ public abstract class Weapon implements IWeapon {
         return damage;
     }
 
-    public WeaponType getWeaponType() {
-        return weaponType;
+    public String getWeaponType() {
+        return weaponType.getWeaponType();
     }
 }
