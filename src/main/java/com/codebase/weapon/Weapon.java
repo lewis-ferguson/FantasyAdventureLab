@@ -1,5 +1,7 @@
 package com.codebase.weapon;
 
+import com.codebase.interfaces.IWeapon;
+
 public abstract class Weapon implements IWeapon {
     private int damage;
     private WeaponType weaponType;
