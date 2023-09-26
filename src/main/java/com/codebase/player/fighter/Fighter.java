@@ -18,4 +18,6 @@ public abstract class Fighter extends Player {
     public void setWeapon(Weapon weapon) {
         this.weapon = weapon;
     }
+
+
 }
