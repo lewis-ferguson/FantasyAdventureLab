@@ -1,0 +1,19 @@
+package com.codebase;
+
+public abstract class Weapon implements IWeapon {
+    private int damage;
+    private WeaponType weaponType;
+
+    public Weapon(int damage, WeaponType weaponType) {
+        this.damage = damage;
+        this.weaponType = weaponType;
+    }
+
+    public int getDamage() {
+        return damage;
+    }
+
+    public WeaponType getWeaponType() {
+        return weaponType;
+    }
+}
