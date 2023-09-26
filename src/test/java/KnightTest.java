@@ -13,8 +13,8 @@ public class KnightTest {
 
     @Before
     public void before() {
-        sword = new Sword(10, WeaponType.SWORD);
-        axe = new Axe(20, WeaponType.AXE);
+        sword = new Sword( WeaponType.SWORD);
+        axe = new Axe( WeaponType.AXE);
         knight = new Knight("Sir Lancelot", 30, sword);
     }
 
