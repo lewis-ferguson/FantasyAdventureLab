@@ -1,6 +1,6 @@
 package com.codebase;
 
-public class Fighter extends Player{
+public abstract class Fighter extends Player{
 
     private Weapon weapon;
     public Fighter(String name, int healthPoints, Weapon weapon) {
