@@ -1,6 +1,9 @@
-package com.codebase;
+package com.codebase.weapon;
 
-public class Sword extends Weapon{
+import com.codebase.weapon.Weapon;
+import com.codebase.weapon.WeaponType;
+
+public class Sword extends Weapon {
     public Sword(int damage, WeaponType weaponType) {
         super(damage, weaponType);
     }

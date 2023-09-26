@@ -1,4 +1,4 @@
-package com.codebase;
+package com.codebase.weapon;
 
 public enum WeaponType {
     AXE("Axe"),

@@ -1,5 +1,5 @@
-import com.codebase.Sword;
-import com.codebase.WeaponType;
+import com.codebase.weapon.Sword;
+import com.codebase.weapon.WeaponType;
 import org.junit.Test;
 import org.junit.Before;
 import static org.junit.Assert.assertEquals;

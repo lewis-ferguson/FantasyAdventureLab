@@ -1,4 +1,4 @@
-package com.codebase;
+package com.codebase.player;
 
 public abstract class Player {
     private String name;

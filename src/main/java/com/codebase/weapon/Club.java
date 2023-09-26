@@ -1,6 +1,6 @@
-package com.codebase;
+package com.codebase.weapon;
 
-public class Club extends Weapon{
+public class Club extends Weapon {
     public Club(int damage, WeaponType weaponType) {
         super(damage, weaponType);
     }
